@@ -69,7 +69,8 @@
     {"tag": "📹 YouTube", "type": "selector", "outbounds": ["🚀 节点选择", "♻️ 自动选择", "🔯 香港自动", "🇭🇰 香港节点", "♻️ Fofa自动", "🌐 Fofa节点", "♻️ 美国自动", "🇺🇲 美国节点", "🐸 手动切换"]},
     {"tag": "🤖 OpenAI", "type": "selector", "outbounds": ["🚀 节点选择", "♻️ 自动选择", "🔯 香港自动", "🇭🇰 香港节点", "♻️ Fofa自动", "🌐 Fofa节点", "♻️ 美国自动", "🇺🇲 美国节点", "🐸 手动切换"]},
     {"tag": "🍀 Google", "type": "selector", "outbounds": ["🚀 节点选择", "♻️ 自动选择", "🔯 香港自动", "🇭🇰 香港节点", "♻️ Fofa自动", "🌐 Fofa节点", "♻️ 美国自动", "🇺🇲 美国节点", "🐸 手动切换"]},
-    {"tag": "✈️ Speedtest", "type": "selector", "outbounds": ["🚀 节点选择", "♻️ 自动选择", "🔯 香港自动", "🇭🇰 香港节点", "♻️ Fofa自动", "🌐 Fofa节点", "♻️ 美国自动", "🇺🇲 美国节点", "🐸 手动切换"]},
+	{ "tag": "👨‍💻 Github", "type": "selector", "outbounds": ["🚀 节点选择", "♻️ 自动选择", "🔯 香港自动", "🇭🇰 香港节点", "♻️ Fofa自动", "🌐 Fofa节点", "♻️ 美国自动", "🇺🇲 美国节点", "🐸 手动切换"] },
+    { "tag": "🐬 OneDrive", "type": "selector", "outbounds": ["🚀 节点选择", "♻️ 自动选择", "🔯 香港自动", "🇭🇰 香港节点", "♻️ Fofa自动", "🌐 Fofa节点", "♻️ 美国自动", "🇺🇲 美国节点", "🐸 手动切换"] },
     {"tag": "📲 Telegram", "type": "selector", "outbounds": ["🚀 节点选择", "♻️ 自动选择", "🔯 香港自动", "🇭🇰 香港节点", "♻️ Fofa自动", "🌐 Fofa节点", "♻️ 美国自动", "🇺🇲 美国节点", "🐸 手动切换"]},
     {"tag": "🎵 TikTok", "type": "selector", "outbounds": ["🚀 节点选择", "♻️ 自动选择", "🔯 香港自动", "🇭🇰 香港节点", "♻️ Fofa自动", "🌐 Fofa节点", "♻️ 美国自动", "🇺🇲 美国节点", "🐸 手动切换"]},
     {"tag": "🎥 Netflix", "type": "selector", "outbounds": ["🚀 节点选择", "♻️ 自动选择", "🔯 香港自动", "🇭🇰 香港节点", "♻️ Fofa自动", "🌐 Fofa节点", "♻️ 美国自动", "🇺🇲 美国节点", "🐸 手动切换"]},
@@ -91,7 +92,7 @@
   
   "route": {
         "auto_detect_interface": true,
-        "final": "🐠 漏网之鱼",
+        "final": "🐟 漏网之鱼",
     "rules": [
       { "type": "logical", "mode": "or", "rules": [{ "port": 53 }, { "protocol": "dns" }], "outbound": "dns-out" },
       { "clash_mode": "direct", "outbound": "🎯 全球直连" },
