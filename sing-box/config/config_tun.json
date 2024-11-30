@@ -99,21 +99,7 @@
 	{"tag": "REJECT", "type": "block"},
     {"tag": "dns-out", "type": "dns"}
   ],
-  
-  "outbound_providers": [
-    {
-      "type": "remote",
-      "tag": "qcy",
-      "path": "./qcy.json",
-      "download_url": "http://192.168.188.150:3001/W3B8zxbBzdRbBF8Aqx7B/download/collection/zxb?target=sing-box",
-      "download_ua": "clash",
-      "enable_healthcheck": true,
-      "healthcheck_url": "https://www.gstatic.com/generate_204",
-      "healthcheck_interval": "300s",
-      "download_detour": "🎯 全球直连"
-    }
-  ],
-  
+   
   "route": {
     "auto_detect_interface": true,
     "final": "🐟 漏网之鱼",
