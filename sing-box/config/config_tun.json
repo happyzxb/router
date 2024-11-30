@@ -34,7 +34,7 @@
       { "clash_mode": "global", "server": "proxyDns" },
       { "rule_set": "geosite-cn", "server": "localDns" },
       { "rule_set": "geosite-geolocation-!cn", "server": "proxyDns" },
-	  {"fallback_rules": [ { "rule_set": [ "geoip-cn" ], "server": "localDns" }, { "match_all": true, "server": "dns_fakeip" } ], "server": "proxyDns" }
+	  { "fallback_rules": [ { "rule_set": [ "geoip-cn" ], "server": "localDns" }, { "match_all": true, "server": "dns_fakeip" } ], "server": "proxyDns" }
     ],
     "final": "localDns",
     "strategy": "ipv4_only",
