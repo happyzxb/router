@@ -118,7 +118,8 @@
       { "rule_set": ["geoip-netflix", "geosite-netflix"], "outbound": "🎥 Netflix" },
       { "rule_set": ["geoip-telegram", "geosite-telegram"], "outbound": "📲 Telegram" },
       { "rule_set": "geosite-geolocation-!cn", "outbound": "🚀 节点选择" },
-      { "rule_set": ["geoip-cn", "geosite-cn"], "outbound": "🎯 全球直连" }
+      { "rule_set": ["geoip-cn"], "outbound": "🎯 全球直连" },
+	  { "rule_set": [""geosite-cn"], "outbound": "🎯 全球直连" }
     ],
     
     "rule_set": [
