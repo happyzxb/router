@@ -56,6 +56,18 @@
         }
       }
     },
+	{
+      "type": "socks",
+      "tag": "socks-in",
+      "listen": "::",
+      "listen_port": 1080,
+      "users": [
+        {
+          "username": "admin",
+          "password": "admin"
+        }
+      ]
+    },
     {
       "type": "mixed",
       "listen": "127.0.0.1",
@@ -99,6 +111,7 @@
       { "type": "logical", "mode": "or", "rules": [{ "port": 53 }, { "protocol": "dns" }], "outbound": "dns-out" },
       { "clash_mode": "direct", "outbound": "🎯 全球直连" },
       { "clash_mode": "global", "outbound": "GLOBAL" },
+	  {"domain_suffix": ["micu.hk", "zxbpan.top","mydata.us.kg"], "outbound": "🎯 全球直连"},
       { "domain": ["clash.razord.top", "yacd.metacubex.one", "yacd.haishan.me", "d.metacubex.one", "nas.zxbpan.top"], "outbound": "🎯 全球直连"},
 	  { "domain": ["getprofit.live", "www.getprofit.live"], "outbound": "REJECT"},
 	  {"rule_set": "BanAD", "outbound": "REJECT"},
