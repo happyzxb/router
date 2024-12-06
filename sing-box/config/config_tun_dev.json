@@ -60,6 +60,18 @@
     }
   },
   {
+    "type": "socks",
+    "tag": "socks-in",
+    "listen": "::",
+    "listen_port": 1080,
+    "users": [
+      {
+        "username": "admin",
+        "password": "admin"
+      }
+    ]
+  },
+  {
     "type": "mixed",
     "listen": "127.0.0.1",
     "listen_port": 2080,
