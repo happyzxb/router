@@ -1,4 +1,10 @@
-稳定版1.10内网：
-http://192.168.188.251/websoft/openwrt/sing-box/web-url/config_tun.json
-dev版1.11内网：
-http://192.168.188.251/websoft/openwrt/sing-box/web-url/config_tun_dev.json
+gz----工作室定制config.json文件，tun模式
+
+外网下载地址：
+https://raw.githubusercontent.com/happyzxb/router/refs/heads/main/sing-box/config/gz/config_tun.json
+或者
+https://github.zxbpan.top/https://raw.githubusercontent.com/happyzxb/router/refs/heads/main/sing-box/config/gz/config_tun.json
+
+
+
+gz----自己个人在用的定制config.json文件，tun模式
